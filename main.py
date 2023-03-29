@@ -1,7 +1,9 @@
-num1 = 10
-num2 = 25
+pv = float(input("Enter the present value of the investment: "))
+rate = float(input("Enter the annual interest rate (as a decimal): "))
+years = int(input("Enter the number of years the investment will be held: "))
 
-result = num1 + num2
+fv = pv * (1 + rate) ** years
 
-print("The sum of", num1, "and", num2, "is:", result)
+print("The future value of the investment is:", round(fv, 2))
+
 
