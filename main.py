@@ -1,9 +1,7 @@
-def hello():
-    print("hi")
+num1 = 10
+num2 = 20
 
+result = num1 + num2
 
-def bye():
-    print("bye")
+print("The sum of", num1, "and", num2, "is:", result)
 
-    
-print(hello())
